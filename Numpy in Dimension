@@ -1,0 +1,5 @@
+import numpy as np
+a_1d = np.arange(9)
+print(a_1d)
+ output:
+     [0, 1,2,3,4,5,6,7,8]
