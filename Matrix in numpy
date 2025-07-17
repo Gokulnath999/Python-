@@ -1,0 +1,10 @@
+import numpy as np
+ #create a 2x2 matrix
+gokul = np.array([[1, 3], [5, 7]])
+
+print("2x2 Matrix:\n",gokul)
+      output:
+      2x2 Matrix:
+ [[1 3]
+ [5 7]]
+  
