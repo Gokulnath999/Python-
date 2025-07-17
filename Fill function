@@ -1,0 +1,13 @@
+import numpy as np
+kar=np.full((8, 3), 6) 
+print("gooflee:\n",kar)
+ output;
+gooflee:
+ [[6 6 6]
+ [6 6 6]
+ [6 6 6]
+ [6 6 6]
+ [6 6 6]
+ [6 6 6]
+ [6 6 6]
+ [6 6 6]]
