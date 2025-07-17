@@ -1,0 +1,4 @@
+matrix = [[col for col in range(4)] for row in range(4)]
+print(matrix) 
+ output:
+[[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]]
