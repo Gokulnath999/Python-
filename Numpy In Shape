@@ -1,0 +1,6 @@
+import numpy as np
+array = np.array([[7,1,1,], [2,3,5]])
+# return shape of the array 
+shapeOfArray = np.shape(array)
+print(shapeOfArray)
+# Output : (2, 2)
