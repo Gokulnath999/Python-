@@ -1,0 +1,6 @@
+import numpy as np
+
+gokul= np.array([[1, 2, 3], [5, 6, 7]])
+print(np.size(gokul))
+  output:
+    6
