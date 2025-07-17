@@ -1,0 +1,12 @@
+import numpy as np
+ff1 = np.array([[0, 6], [2, 3]])
+ff2 = np.array([[4, 7], [9, 0]])
+concatenatedArray = np.concatenate((ff1, ff2))
+print(concatenatedArray)
+output;
+ [0 6]
+ [2 3]
+ [4 7]
+ [9 0]]
+
+=== Code Ex
