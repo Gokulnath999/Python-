@@ -1,0 +1,80 @@
+import pandas as pd
+
+# Sample dataset
+data = {
+    'Name': ['gokul', 'bala', 'magi', 'priyanka', 'prem'],
+    'Age': [25, 18, 12, 40, 45],
+    'Score': [85, 90, 95, 80, 75]
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Head: first 5 rows
+print("Head:\n", df.head())
+
+# Tail: last 5 rows
+print("\nTail:\n", df.tail())
+
+# Info: summary of dataframe
+print("\nInfo:")
+df.info()
+
+# Mean: average of each numeric column
+print("\nMean:\n", df.mean(numeric_only=True))
+
+# Describe: statistical summary
+print("\nDescribe:\n", df.describe())
+
+# Standard deviation
+print("\nStandard Deviation:\n", df.std
+
+output:
+ Head:
+        Name  Age  Score
+0     gokul   25      0
+1      bala   18     90
+2      magi   12     95
+3  priyanka   40     80
+4      prem   45      0
+
+Tail:
+        Name  Age  Score
+0     gokul   25      0
+1      bala   18     90
+2      magi   12     95
+3  priyanka   40     80
+4      prem   45      0
+
+Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5 entries, 0 to 4
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   Name    5 non-null      object
+ 1   Age     5 non-null      int64 
+ 2   Score   5 non-null      int64 
+dtypes: int64(2), object(1)
+memory usage: 252.0+ bytes
+
+Mean:
+Age      28.0
+Score    53.0
+dtype: float64
+
+Describe:
+              Age      Score
+count   5.000000   5.000000
+mean   28.000000  53.000000
+std    14.124447  48.682646
+min    12.000000   0.000000
+25%    18.000000   0.000000
+50%    25.000000  80.000000
+75%    40.000000  90.000000
+max    45.000000  95.000000
+
+Standard Deviation:
+ Age      14.124447
+Score    48.682646
+dtype: float64
