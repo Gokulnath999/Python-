@@ -1,0 +1,23 @@
+import pandas as pd
+
+# Create DataFrame
+df = pd.read_csv('/content/sample_data_with_nulls.csv')
+
+# Head: first 5 rows
+print("Head:\n", df.head())
+
+# Tail: last 5 rows
+print("\nTail:\n", df.tail())
+
+# Info: summary of dataframe
+print("\nInfo:")
+df.info()
+
+# Mean: average of each numeric column
+print("\nMean:\n", df.mean(numeric_only=True))
+
+# Describe: statistical summary
+print("\nDescribe:\n", df.describe())
+
+# Standard deviation
+print("\nStandard Deviation:\n", df.std(numeric_only=True))
