@@ -1,0 +1,14 @@
+pandas task
+import pandas as pd 
+head()
+
+tail()
+
+info()
+
+mean()
+
+describe()
+
+std() (standard deviation)
+
