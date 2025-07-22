@@ -1,0 +1,11 @@
+Pandas is an open-source software library for the Python programming language, specifically designed for data manipulation and analysis.
+
+
+coding :
+   Pythondata.csv 
+import pandas as pd
+​
+df = pd.read_csv('data.csv')
+​
+print(df.to_string())
+​
